@@ -24,7 +24,7 @@ public class DataSourceConfiguration {
 	private static Logger log = LoggerFactory.getLogger(DataSourceConfiguration.class);
 
     @Autowired
-    private MultipleReadDatasourceProperties readDataSourceProperties;
+    private DatasourceProperties readDataSourceProperties;
 
 	@Value("${mysql.datasource.type}")
 	private Class<? extends DataSource> dataSourceType;

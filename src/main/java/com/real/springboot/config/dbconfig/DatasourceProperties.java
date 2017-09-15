@@ -9,7 +9,7 @@ import java.util.List;
 
 @Configuration
 @ConfigurationProperties(prefix = "mysql.datasource")
-public class MultipleReadDatasourceProperties {
+public class DatasourceProperties {
 
     private List<DruidDataSource> read = new ArrayList<>();
 

@@ -18,6 +18,7 @@ mysql:
         type: com.alibaba.druid.pool.DruidDataSource
         mapperLocations: classpath:/com/real/springboot/dao/*.xml
         configLocation: classpath:/mybatis-config.xml
+        typeAliasesPackage: com.real.springboot.dao
         write:
            url: jdbc:mysql://127.0.0.1:3306/test1?useUnicode=true&amp;characterEncoding=utf-8
            username: root
